@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Witty Wear</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: #fff5f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #ff4d6d, #ffb703);
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #ff1e4d;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Witty Wear</h1>
+  <p>Wear Your Mood 😎</p>
+</header>
+
+<section>
+  <h2>Our Collection</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300?text=T-Shirt">
+      <h3>Witty T-Shirt</h3>
+      <p>₹499</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300?text=Hoodie">
+      <h3>Cool Hoodie</h3>
+      <p>₹999</p>
+      <button>Buy Now</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Witty Wear | Cute • Funky • Bold
+</footer>
+
+</body>
+</html>
